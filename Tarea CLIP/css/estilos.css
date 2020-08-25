@@ -1,0 +1,303 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /** Reset para REMS - 62.5% = 10px de 16px **/
+
+    font-family: 'Do Hyeon', sans-serif;
+    background: rgba(33,33,33,1);
+    background: -moz-linear-gradient(top, rgba(33,33,33,1) 0%, rgba(38,38,38,1) 12%, rgba(46,46,46,1) 25%, rgba(31,31,31,1) 39%, rgba(18,18,18,1) 50%, rgba(0,0,0,1) 50%, rgba(8,8,8,1) 60%, rgba(18,18,18,1) 76%, rgba(13,13,13,1) 91%, rgba(8,8,8,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(33,33,33,1)), color-stop(12%, rgba(38,38,38,1)), color-stop(25%, rgba(46,46,46,1)), color-stop(39%, rgba(31,31,31,1)), color-stop(50%, rgba(18,18,18,1)), color-stop(50%, rgba(0,0,0,1)), color-stop(60%, rgba(8,8,8,1)), color-stop(76%, rgba(18,18,18,1)), color-stop(91%, rgba(13,13,13,1)), color-stop(100%, rgba(8,8,8,1)));
+    background: -webkit-linear-gradient(top, rgba(33,33,33,1) 0%, rgba(38,38,38,1) 12%, rgba(46,46,46,1) 25%, rgba(31,31,31,1) 39%, rgba(18,18,18,1) 50%, rgba(0,0,0,1) 50%, rgba(8,8,8,1) 60%, rgba(18,18,18,1) 76%, rgba(13,13,13,1) 91%, rgba(8,8,8,1) 100%);
+    background: -o-linear-gradient(top, rgba(33,33,33,1) 0%, rgba(38,38,38,1) 12%, rgba(46,46,46,1) 25%, rgba(31,31,31,1) 39%, rgba(18,18,18,1) 50%, rgba(0,0,0,1) 50%, rgba(8,8,8,1) 60%, rgba(18,18,18,1) 76%, rgba(13,13,13,1) 91%, rgba(8,8,8,1) 100%);
+    background: -ms-linear-gradient(top, rgba(33,33,33,1) 0%, rgba(38,38,38,1) 12%, rgba(46,46,46,1) 25%, rgba(31,31,31,1) 39%, rgba(18,18,18,1) 50%, rgba(0,0,0,1) 50%, rgba(8,8,8,1) 60%, rgba(18,18,18,1) 76%, rgba(13,13,13,1) 91%, rgba(8,8,8,1) 100%);
+    background: linear-gradient(to bottom, rgba(33,33,33,1) 0%, rgba(38,38,38,1) 12%, rgba(46,46,46,1) 25%, rgba(31,31,31,1) 39%, rgba(18,18,18,1) 50%, rgba(0,0,0,1) 50%, rgba(8,8,8,1) 60%, rgba(18,18,18,1) 76%, rgba(13,13,13,1) 91%, rgba(8,8,8,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#212121', endColorstr='#080808', GradientType=0 );
+    scroll-behavior: smooth;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+img {
+    max-width: 100%;
+}
+.contenedor {
+    width: 95%;
+    max-width: 120rem; /** = 1200px; **/
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+p{
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+span{
+    color: gold;
+    text-transform: uppercase;
+}
+
+.sombra{
+    -webkit-box-shadow: 2px 25px 34px 10px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 25px 34px 10px rgba(0,0,0,0.75);
+box-shadow: 2px 25px 34px 10px rgba(0,0,0,0.75);
+}
+
+header{
+    background-image: url(../img/matthew-ronder-seid-bhppFVQO-EQ-unsplash1.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 4rem;
+    height: 80rem;
+
+   
+}
+
+.header2{
+    
+        background-image: url(../img/header2.jpg);
+        background-position: center center;
+        background-size: cover;
+        padding-bottom: 4rem;
+        height: 80rem;  
+    
+}
+
+.header3{
+    
+    background-image: url(../img/header3.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 4rem;
+    height: 80rem;  
+
+}
+
+.navbar{
+    padding-top: 10rem;
+ 
+}
+
+.titulo{
+    padding-top: 5rem;
+    margin-top: 3rem;
+    font-size: 8rem;
+    color: white;
+    text-align: center;
+    max-width: 70%;
+    margin: 0 auto;
+    font-family: 'Russo One', sans-serif;
+}
+
+.subtitulo{
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+}
+
+.listas{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15rem;    
+}
+
+li{
+    
+    list-style: none;
+}
+
+ul{
+    padding: 0;
+}
+
+.a-boton{
+    font-size: 2.5rem;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    transition: all .3s ease;
+}
+
+
+.a-boton:hover{
+    color: gold;
+    border: gold double 7px;
+    border-top: none;
+    
+}
+
+.tarjeta{
+    margin: 5rem auto;
+    background-color: rgba(175, 175, 175, 0.486);
+    border-radius: 50px 0px 50px 0px;
+-moz-border-radius: 50px 0px 50px 0px;
+-webkit-border-radius: 50px 0px 50px 0px;
+border: 8px solid #c0c0c0;
+}
+
+.porsche{
+    border-radius: 15px;
+    max-height: 30rem;
+    
+    display: block;
+    margin: auto;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url(../img/parallax2.jpg);
+  
+    /* Set a specific height */
+    height: 650px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .emblema{
+      height: 20rem;
+      width: 27rem;
+  }
+
+  .logos{
+      max-width: 1000px;
+      margin: 0 auto;
+      padding-top: 2rem;
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .marcas{
+      margin-top: 5rem;
+      padding: 8rem 0;
+      
+  }
+
+  .nuestras-marcas{
+
+    margin: 0;
+    font-size: 5rem;
+
+  }
+
+  .boton{
+      
+      text-align: center;
+      font-size: 5rem;
+      margin-bottom: 1rem;
+  }
+
+footer{
+    
+    color: white;
+    background-color: rgb(46, 46, 46);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem 0;
+
+}
+
+.derechos{
+    margin: 1rem;
+    padding-top: 1rem;
+}
+
+.boton2{
+      
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.display-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-respon{
+    max-width: 45%;
+    display: block;
+    margin: 0 auto;
+    filter: grayscale(100%);
+    transition: all .4s ease;
+}
+
+.img-respon:hover{
+    filter: grayscale(0%);
+    
+    max-width: 60%;
+    
+
+}
+
+.seleccion{
+    max-width: 33%;
+    height: 40rem;
+    display: flex;    
+    align-items: center;
+    transition: all .5s ease;
+    
+}
+
+
+.aling-items{
+    vertical-align: middle;
+}
+
+.backgroud-marca{
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+
+
+.a-marcas{
+    
+
+text-decoration: none;
+
+color: white;
+transition: all .3s ease;
+}
+
+td{
+    width: 50%;
+    align-items: center;
+}
+
+input{
+    display: block;
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: .4rem 0;
+    font-size: 2rem;
+    
+}
+
+input:hover{
+    cursor: text;
+}
+
+input:last-of-type{
+    color: white;
+    background-color:rgb(78, 78, 78);
+    
+    transition: all .5s ease;
+}
+
+input:last-of-type:hover{
+    background-color:rgb(37, 37, 37);
+    cursor: pointer;
+}

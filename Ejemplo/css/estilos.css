@@ -1,0 +1,125 @@
+html{
+    font-family: 'Do Hyeon', sans-serif;
+    background-color: grey;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    color: brown;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+
+
+.subtitulo{
+    color: rgb(0, 0, 255);
+    text-align: center;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: all .5s ease;
+    border: white solid 3px;
+    padding: 6px 12px;
+}
+
+a:hover{
+    color: green;
+    border: rgb(245, 4, 4) solid 9px;
+
+}
+
+li{
+    font-size: 20px;
+    
+    list-style-type: none;
+    text-align: center;
+}
+
+ul{
+    padding: 0;
+}
+
+.fondo{
+    background-image: url(../img/matthew-ronder-seid-bhppFVQO-EQ-unsplash1.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 650px;
+}
+
+header{
+    padding-top: 95px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.tarjeta{
+    margin-top: 70px;
+    padding-top: 40;
+    background-color: white;
+    border-radius: 20px;
+
+    -webkit-box-shadow: 2px 9px 19px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 9px 19px 7px rgba(0,0,0,0.75);
+box-shadow: 2px 9px 19px 7px rgba(0,0,0,0.75);
+
+}
+
+p{
+    text-align: center;
+}
+
+.porsche{
+    
+
+    width: 400px;
+    height: 250px;
+}
+
+.pagani{
+    width: 150px;
+    height: 250px;
+    margin-right: 50px;
+    margin-left: 250px;
+    transition: all 1s ease-in;
+    
+}
+
+.pagani:hover{
+    border-radius: 50%;
+}
+
+
+.productos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.descripcion{
+    margin-right: 320px;
+}

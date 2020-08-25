@@ -1,0 +1,19 @@
+body{
+    background-color: gray;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 40px;
+    border-style: ;
+}
